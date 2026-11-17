@@ -43,13 +43,13 @@ Suricata IDS (inline, monitors all HTTP traffic)
 - Docker Compose v2
 - IP forwarding enabled on the host:
 
-```bash (like root)
+```bash
 sysctl -w net.ipv4.ip_forward=1
 ```
 
 To persist across reboots:
 
-```bash (like root)
+```bash
 echo "net.ipv4.ip_forward=1" | tee -a /etc/sysctl.conf
 ```
 
@@ -68,8 +68,8 @@ Wait ~15 seconds for all services to initialize, then:
 
 | Service | URL |
 |---------|-----|
-| Target application | `http://0.0.0.0` |
-| Grafana SOC dashboard | `http://localhost:3000` (admin / admin) |
+| Target application | `http://localhost` |
+| Grafana SOC dashboard | `http://localhost:3000` (soc / soc-lab-2026) |
 
 ---
 
