@@ -69,7 +69,7 @@ Wait ~15 seconds for all services to initialize, then:
 | Service | URL |
 |---------|-----|
 | Target application | `http://localhost` |
-| Grafana SOC dashboard | `http://localhost:3000` (soc / soc-lab-2026) |
+| Grafana SOC dashboard | `http://localhost:3000` (Credentials -> soc:soc-lab-2026) |
 
 ---
 
