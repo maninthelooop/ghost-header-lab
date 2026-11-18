@@ -58,7 +58,7 @@ echo "net.ipv4.ip_forward=1" | tee -a /etc/sysctl.conf
 ## Quickstart
 
 ```bash
-git clone https://github.com/<your-handle>/ghost-header-lab.git
+[git clone https://github.com/<your-handle>/ghost-header-lab.git](https://github.com/maninthelooop/ghost-header-lab.git)
 cd ghost-header-lab/cve-lab
 docker plugin install grafana/loki-docker-driver:latest --alias loki --grant-all-permissions
 docker compose up -d
